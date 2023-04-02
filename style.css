@@ -1,0 +1,76 @@
+/*colors and fonts*/
+body {
+	background-color: rgb(255, 180, 180);
+	color: rgb(25, 55, 109);
+	font-family: Courier;
+	font-size: 17px;
+}
+h1, h2, h3 {
+	font-family: Playfair Display;
+}
+h1 {
+	color:rgb(87, 108, 188);
+	font-size: 50px;
+	font-weight: 100;
+	letter-spacing: 5px;
+}
+h2 {
+	color:rgb(11, 36, 71);
+	font-size: 25px;
+	font-weight: lighter;
+	letter-spacing: 1px;
+}
+a {
+	text-decoration: none;
+	color: rgb(178, 164, 255);
+}
+a:hover {
+	color: rgb(253, 247, 195);
+}
+
+/*custom design with class*/
+.container  {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width:760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width:500px) {
+	.container{
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 35px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	margin: 15px 0px;
+	text-align: center;
+}
+.img-circle{
+	border-radius: 70%;
+}
+
+.horizontal{
+	list-style: none;
+	padding-left: 0px;
+}
+.horizontal li{
+	display: inline;
+	padding: 10px;
+}
+.horizontal i{
+	font-size: 50px;
+}
+
+
+
+
+
